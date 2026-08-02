@@ -67,6 +67,20 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | [qa-test-planner](https://skills.sh/softaworks/agent-toolkit/qa-test-planner) `softaworks/agent-toolkit` | Test plans, manual cases, regression suites, bug reports | QA | 4.1K |
 | [accessibility-test-plan](https://skills.sh/owl-listener/designer-skills/accessibility-test-plan) `owl-listener/designer-skills` | Accessibility test plan for UI features | QA | 989 |
 
+### 📣 Marketing & growth
+
+| Skill | What it actually does | Roles | Installs |
+|---|---|---|---|
+| [seo-audit](https://skills.sh/coreyhaines31/marketingskills/seo-audit) `coreyhaines31/marketingskills` | Full technical + content SEO audit | ALL | 177K |
+| [programmatic-seo](https://skills.sh/coreyhaines31/marketingskills/programmatic-seo) `coreyhaines31/marketingskills` | Template-driven pages at scale without thin-content penalties | ALL | 112K |
+| [ai-seo](https://skills.sh/coreyhaines31/marketingskills/ai-seo) `coreyhaines31/marketingskills` | Ranking in AI answers (LLM search, AI Overviews) | ALL | 101K |
+| [seo](https://skills.sh/addyosmani/web-quality-skills/seo) `addyosmani/web-quality-skills` | On-page and technical SEO quality from the Chrome team | ALL | 36.8K |
+| [marketing-council](https://skills.sh/coreyhaines31/marketingskills/marketing-council) `coreyhaines31/marketingskills` | Council of marketing perspectives deliberating your strategy question | ALL | 12.1K |
+| [affiliate-marketing](https://skills.sh/kostja94/marketing-skills/affiliate-marketing) `kostja94/marketing-skills` | CPS affiliate program strategy: commissions, recruitment, tracking | ALL | 921 |
+| [google-ads](https://skills.sh/arnabbagxd/brand-building-skills/google-ads) `arnabbagxd/brand-building-skills` | Deep Google Ads: Search/PMax/Shopping/YouTube, Quality Score, ROAS | ALL | 601 |
+
+**Collections powering the [role kits](https://github.com/lastbrink-pixel/role-kits):** [marketingskills](https://github.com/coreyhaines31/marketingskills) (49 skills, Corey Haines), [salesskills](https://github.com/louisblythe/salesskills) (120+ sales & conversation skills), [designer-skills](https://github.com/owl-listener/designer-skills) (~100 design skills).
+
 ### 🛠️ Engineering
 
 | Skill | What it actually does | Roles | Installs |
