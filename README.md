@@ -14,7 +14,9 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 
 | Skill | What it actually does | Roles | Installs |
 |---|---|---|---|
+| [grill-me](https://skills.sh/mattpocock/skills/grill-me) + [grilling](https://skills.sh/mattpocock/skills/grilling) `mattpocock/skills` | Relentless one-question-at-a-time interview that stress-tests your plan, decision, or idea before you commit to it | ALL | 730K |
 | [council](https://skills.sh/warpdotdev/common-skills/council) `warpdotdev/common-skills` | Karpathy-style LLM Council: several agents (different models when available, different perspectives otherwise) investigate the same question independently, cross-review, then synthesize one recommendation | BA, PO, DEV | 16.3K |
+| [idea-refine](https://skills.sh/addyosmani/agent-skills/idea-refine) `addyosmani/agent-skills` | Refines raw ideas into a sharp one-pager via divergent/convergent thinking | ALL | 16.2K |
 | [llm-council](https://github.com/okjpg/llm-council) `okjpg` | 5 AI advisors debate your decision with peer review and synthesis — closest to Karpathy's original methodology | BA, PO | — |
 | [judge-with-debate](https://skills.sh/neolabhq/context-engineering-kit/judge-with-debate) `neolabhq/context-engineering-kit` | Structured judge + debate loop for evaluating outputs before shipping them | QA, DEV | 947 |
 
@@ -23,6 +25,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | Skill | What it actually does | Roles | Installs |
 |---|---|---|---|
 | [empathy-in-action](https://github.com/lastbrink-pixel/empathy-in-action) `lastbrink-pixel` | Empathy through action, not words: the assistant picks up the rational load when emotions block reason — mirrors the user's register, never fakes capabilities, ticking-clock mode for live incidents | ALL | new |
+| [caveman](https://github.com/JuliusBrussee/caveman) `JuliusBrussee` | Caveman-speak compression: ~65% fewer output tokens, full technical accuracy kept | ALL | 805+ |
 | [negotiation-voss-tactical-empathy](https://skills.sh/santos-sanz/lifeskills/negotiation-voss-tactical-empathy) `santos-sanz/lifeskills` | Chris Voss negotiation techniques (tactical empathy, calibrated questions) applied to your negotiation prep | PO, SM | 43 |
 
 ### 📋 Discovery & requirements
@@ -31,6 +34,18 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 |---|---|---|---|
 | [empathy-map](https://skills.sh/owl-listener/designer-skills/empathy-map) `owl-listener/designer-skills` | Builds a UX empathy map (says/thinks/does/feels) from your user research notes | BA, PO | 943 |
 | [customer-empathy](https://skills.sh/rameerez/claude-code-startup-skills/customer-empathy) `rameerez/claude-code-startup-skills` | Digs into customer pains and jobs-to-be-done before you commit to building | PO, BA | 108 |
+
+### 📝 Requirements & stories
+
+| Skill | What it actually does | Roles | Installs |
+|---|---|---|---|
+| [meeting-notes](https://skills.sh/claude-office-skills/skills/meeting-notes) `claude-office-skills` | Meeting transcripts into structured notes, decisions, and action items | BA, SM | 4.4K |
+| [user-story](https://skills.sh/deanpeters/product-manager-skills/user-story) `deanpeters/product-manager-skills` | User stories in Mike Cohn format with Gherkin acceptance criteria | BA, PO | 3.1K |
+| [requirements-analysis](https://skills.sh/jwynia/agent-skills/requirements-analysis) `jwynia/agent-skills` | Diagnoses requirements problems: separates stated wants from real needs and constraints | BA | 2.2K |
+| [user-story-splitting](https://skills.sh/deanpeters/product-manager-skills/user-story-splitting) `deanpeters/product-manager-skills` | Splits oversized stories/epics using proven split patterns | BA, PO | 1.9K |
+| [requirements-clarity](https://skills.sh/softaworks/agent-toolkit/requirements-clarity) `softaworks/agent-toolkit` | Vague request → actionable PRD via YAGNI/KISS questioning | BA | 726 |
+| [deliver-acceptance-criteria](https://skills.sh/product-on-purpose/pm-skills/deliver-acceptance-criteria) `product-on-purpose/pm-skills` | Given/When/Then criteria: happy path, failures, non-functional | BA, QA | 667 |
+| [drawio-bpmn](https://skills.sh/sparklabx/drawio-ai-kit/drawio-bpmn) `sparklabx/drawio-ai-kit` | BPMN swimlane diagrams in draw.io with validation (needs drawio-ai CLI) | BA | 155 |
 
 ### 🛠️ Engineering
 
@@ -48,7 +63,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 
 ## Role kits
 
-Skills from this catalog are being assembled into installable **role kits** for Scrum teams (ba-kit, po-kit, sm-kit, dev-kit, qa-kit) — one command installs the whole set for your role. Coming at [lastbrink-pixel/role-kits](https://github.com/lastbrink-pixel/role-kits).
+Skills from this catalog are assembled into installable **role kits** for Scrum teams — one command installs the whole set for your role, on any agent. The **BA kit is live** (7 core + 8 role skills): [lastbrink-pixel/role-kits](https://github.com/lastbrink-pixel/role-kits). po/sm/dev/qa kits are next.
 
 ## Contributing
 
