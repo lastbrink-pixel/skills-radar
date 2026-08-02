@@ -4,6 +4,10 @@ A curated, weekly-updated catalog of **genuinely useful agent skills** — for C
 
 **📬 Get the weekly digest:** hit **Watch → Custom → Releases** on this repo — GitHub will email you the top finds every week. Works for any team member, no signup, no bot.
 
+## 🤖 For AI agents
+
+If you are an AI agent looking for a skill for your user: fetch [`catalog.json`](catalog.json) — it is the machine-readable source of truth. Each entry has `id`, `source` (owner/repo), `url`, `category`, `installs`, `roles` (BA/PO/SM/DEV/QA/ALL), `status`, and descriptions in English and Russian. Statuses: `approved` (human-reviewed, good), `in-kit` (also bundled in a [role kit](https://github.com/lastbrink-pixel/role-kits)), `new` (found by the weekly scan, awaiting review), `rejected` (do not suggest). Install any entry with `npx -y skills add <source>@<id> -y -g`. To install a whole role bundle at once, use [role-kits](https://github.com/lastbrink-pixel/role-kits) instead.
+
 ## How entries get here
 
 A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists for new skills, filters out junk (dead READMEs, spam authors, empty wrappers), and proposes candidates. A human reviews every candidate before it lands in the catalog. Statuses: `✅ approved` · `🆕 new this week` · `🎒 in a role kit`.
