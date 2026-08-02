@@ -91,6 +91,25 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | [document skills](https://github.com/anthropics/skills) `anthropics/skills` | Official Anthropic skills for producing real .docx / .xlsx / .pptx / .pdf artifacts | ALL | 100K+ |
 | [skill-creator](https://github.com/anthropics/skills) `anthropics/skills` | Meta-skill: builds new skills with test runs, benchmarks, and an iteration loop — how the skills in this catalog get made | ALL | 100K+ |
 
+### 🖥️ Infrastructure
+
+| Skill | What it actually does | Roles | Installs |
+|---|---|---|---|
+| [azure-kubernetes](https://skills.sh/microsoft/azure-skills/azure-kubernetes) `microsoft/azure-skills` | Official Microsoft AKS skill — the most-installed infrastructure skill in the ecosystem | DEV | 322K |
+| [kubernetes-specialist](https://skills.sh/jeffallan/claude-skills/kubernetes-specialist) `jeffallan/claude-skills` | Vendor-neutral K8s: manifests, Helm, RBAC, NetworkPolicies, GitOps, pod debugging | DEV | 11.8K |
+| [dt-obs-kubernetes](https://skills.sh/dynatrace/dynatrace-for-ai/dt-obs-kubernetes) `dynatrace/dynatrace-for-ai` | Kubernetes observability via Dynatrace | DEV | 1.4K |
+| [terraform-infrastructure-as-code](https://skills.sh/manutej/luxor-claude-marketplace/terraform-infrastructure-as-code) `manutej/luxor-claude-marketplace` | Terraform IaC: modules, state, plans, reviews | DEV | 312 |
+
+### 📈 Data & hiring
+
+| Skill | What it actually does | Roles | Installs |
+|---|---|---|---|
+| [xlsx](https://github.com/anthropics/skills) `anthropics/skills` | Official skill for creating and editing real .xlsx spreadsheets | ALL | 100K+ |
+| [job-description-generator](https://skills.sh/claude-office-skills/skills/job-description-generator) `claude-office-skills` | Quick job description drafts from a role outline | ALL | 3.6K |
+| [data-analysis](https://skills.sh/bytedance/deer-flow/data-analysis) `bytedance/deer-flow` | DuckDB-powered Excel/CSV analysis: schema, SQL, stats, pivots, exports | PO, QA | 2.9K |
+| [writing-job-descriptions](https://skills.sh/refoundai/lenny-skills/writing-job-descriptions) `refoundai/lenny-skills` | JDs that attract the right people instead of listing 20 requirements | ALL | 1.6K |
+| [interviewing-evaluating-candidates](https://skills.sh/refoundai/lenny-skills/interviewing-evaluating-candidates) `refoundai/lenny-skills` | High-signal interviews: agency and craft over charisma and pedigree | ALL | — |
+
 ### 🧰 Memory & context
 
 | Skill | What it actually does | Roles | Installs |
