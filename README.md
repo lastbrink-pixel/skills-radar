@@ -47,10 +47,28 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | [deliver-acceptance-criteria](https://skills.sh/product-on-purpose/pm-skills/deliver-acceptance-criteria) `product-on-purpose/pm-skills` | Given/When/Then criteria: happy path, failures, non-functional | BA, QA | 667 |
 | [drawio-bpmn](https://skills.sh/sparklabx/drawio-ai-kit/drawio-bpmn) `sparklabx/drawio-ai-kit` | BPMN swimlane diagrams in draw.io with validation (needs drawio-ai CLI) | BA | 155 |
 
+### 📊 Product & planning
+
+| Skill | What it actually does | Roles | Installs |
+|---|---|---|---|
+| [roadmap-planning](https://skills.sh/deanpeters/product-manager-skills/roadmap-planning) `deanpeters/product-manager-skills` | Strategy → outcome-driven roadmap: prioritization, epics, stakeholder alignment, sequencing | PO | 2.9K |
+| [prioritization-advisor](https://skills.sh/deanpeters/product-manager-skills/prioritization-advisor) `deanpeters/product-manager-skills` | Picks the right prioritization framework (RICE/ICE/value-effort) for your stage | PO | 2.1K |
+| [user-story-mapping](https://skills.sh/deanpeters/product-manager-skills/user-story-mapping) `deanpeters/product-manager-skills` | Story mapping: from user journey to release slices | PO, BA | 2K |
+| [iterate-retrospective](https://skills.sh/product-on-purpose/pm-skills/iterate-retrospective) `product-on-purpose/pm-skills` | Facilitates and documents retros: went well / improve / action items | SM | 493 |
+
+### 🧪 QA & testing
+
+| Skill | What it actually does | Roles | Installs |
+|---|---|---|---|
+| [qa-test-planner](https://skills.sh/softaworks/agent-toolkit/qa-test-planner) `softaworks/agent-toolkit` | Test plans, manual cases, regression suites, bug reports | QA | 4.1K |
+| [accessibility-test-plan](https://skills.sh/owl-listener/designer-skills/accessibility-test-plan) `owl-listener/designer-skills` | Accessibility test plan for UI features | QA | 989 |
+
 ### 🛠️ Engineering
 
 | Skill | What it actually does | Roles | Installs |
 |---|---|---|---|
+| [code-review](https://skills.sh/mattpocock/skills/code-review) `mattpocock/skills` | Two-axis review (repo standards + spec compliance) in parallel sub-agents | DEV | 230K |
+| [systematic-debugging](https://skills.sh/obra/superpowers/systematic-debugging) `obra/superpowers` | Root cause before fixes, always — symptom patches are failure | DEV | 210K |
 | [react-best-practices](https://skills.sh/vercel-labs/agent-skills/react-best-practices) `vercel-labs/agent-skills` | React/Next.js performance guidelines straight from Vercel engineering | DEV | 185K |
 | [document skills](https://github.com/anthropics/skills) `anthropics/skills` | Official Anthropic skills for producing real .docx / .xlsx / .pptx / .pdf artifacts | ALL | 100K+ |
 | [skill-creator](https://github.com/anthropics/skills) `anthropics/skills` | Meta-skill: builds new skills with test runs, benchmarks, and an iteration loop — how the skills in this catalog get made | ALL | 100K+ |
@@ -63,7 +81,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 
 ## Role kits
 
-Skills from this catalog are assembled into installable **role kits** for Scrum teams — one command installs the whole set for your role, on any agent. The **BA kit is live** (7 core + 8 role skills): [lastbrink-pixel/role-kits](https://github.com/lastbrink-pixel/role-kits). po/sm/dev/qa kits are next.
+Skills from this catalog are assembled into installable **role kits** for Scrum teams — one command installs the whole set for your role, on any agent: [lastbrink-pixel/role-kits](https://github.com/lastbrink-pixel/role-kits). **All kits are live**: `base` (universal AI-usage core), `ba`, `po`, `sm`, `dev`, `qa`.
 
 ## Contributing
 
