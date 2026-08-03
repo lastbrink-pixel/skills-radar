@@ -100,6 +100,15 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | [dt-obs-kubernetes](https://skills.sh/dynatrace/dynatrace-for-ai/dt-obs-kubernetes) `dynatrace/dynatrace-for-ai` | Kubernetes observability via Dynatrace | DEV | 1.4K |
 | [terraform-infrastructure-as-code](https://skills.sh/manutej/luxor-claude-marketplace/terraform-infrastructure-as-code) `manutej/luxor-claude-marketplace` | Terraform IaC: modules, state, plans, reviews | DEV | 312 |
 
+### 🔐 Security
+
+| Skill | What it actually does | Roles | Installs |
+|---|---|---|---|
+| [anthropic-cybersecurity-skills](https://github.com/mukul975/anthropic-cybersecurity-skills) `mukul975` | Huge security collection (27K★): threat modeling, secret scanning, hardening, forensics, incident response. The [security kit](https://github.com/lastbrink-pixel/role-kits) bundles the **defensive** subset only | DEV | 27K★ |
+| implementing-threat-modeling-with-mitre-attack `mukul975` | Threat modeling mapped to MITRE ATT&CK tactics and techniques | DEV | — |
+| implementing-secret-scanning-with-gitleaks `mukul975` | Catch leaked credentials in repos before attackers do | DEV | — |
+| auditing-mcp-servers-for-tool-poisoning `mukul975` | AI-era attack surface: audit MCP servers for tool poisoning | DEV | — |
+
 ### 📈 Data & hiring
 
 | Skill | What it actually does | Roles | Installs |
