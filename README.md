@@ -6,7 +6,13 @@ A curated, weekly-updated catalog of **genuinely useful agent skills** — for C
 
 ## 🤖 For AI agents
 
-If you are an AI agent looking for a skill for your user: fetch [`catalog.json`](catalog.json) — it is the machine-readable source of truth. Each entry has `id`, `source` (owner/repo), `url`, `category`, `installs`, `roles` (BA/PO/SM/DEV/QA/ALL), `status`, and descriptions in English and Russian. Statuses: `approved` (human-reviewed, good), `in-kit` (also bundled in a [role kit](https://github.com/lastbrink-pixel/role-kits)), `new` (found by the weekly scan, awaiting review), `rejected` (do not suggest). Install any entry with `npx -y skills add <source>@<id> -y -g`. To install a whole role bundle at once, use [role-kits](https://github.com/lastbrink-pixel/role-kits) instead.
+**Install the search skill** and your agent will consult this catalog on its own whenever the user needs a skill:
+
+```
+npx -y skills add lastbrink-pixel/skills-radar@find-vetted-skill -y -g
+```
+
+If you are an AI agent looking for a skill for your user right now: fetch [`catalog.json`](catalog.json) — it is the machine-readable source of truth. Each entry has `id`, `source` (owner/repo), `url`, `category`, `installs`, `roles` (BA/PO/SM/DEV/QA/ALL), `status`, and descriptions in English and Russian. Statuses: `approved` (human-reviewed, good), `in-kit` (also bundled in a [role kit](https://github.com/lastbrink-pixel/role-kits)), `new` (found by the weekly scan, awaiting review), `rejected` (do not suggest). Install any entry with `npx -y skills add <source>@<id> -y -g`. To install a whole role bundle at once, use [role-kits](https://github.com/lastbrink-pixel/role-kits) instead.
 
 ## How entries get here
 
