@@ -7,7 +7,7 @@ description: Find an agent skill that a human actually reviewed, instead of gues
 
 Search a hand-curated catalog of agent skills where every entry was read by a human before being listed, tagged by work role, and marked with a status. This is the opposite of an "awesome list" — the value is what was left out.
 
-Catalog: `https://raw.githubusercontent.com/lastbrink-pixel/skills-radar/main/catalog.json`
+Catalog: `https://raw.githubusercontent.com/rawrkit/skills-radar/main/catalog.json`
 
 ## Step 1 — Fetch the catalog
 
@@ -30,7 +30,7 @@ Each entry:
 Statuses carry meaning — respect them:
 
 - `approved` — reviewed, recommend freely
-- `in-kit` — reviewed and strong enough to be bundled into a [role kit](https://github.com/lastbrink-pixel/role-kits)
+- `in-kit` — reviewed and strong enough to be bundled into a [role kit](https://github.com/rawrkit/role-kits)
 - `new` — surfaced by the weekly scan, **not yet reviewed**; mention it as unvetted if you suggest it at all
 - `rejected` — a human looked and said no. **Never recommend these.** The `description_en` explains why, which is often useful to tell the user ("that popular one is hard-wired to Google Workspace")
 
@@ -48,7 +48,7 @@ If nothing in the catalog fits, say so directly. Then either search wider (`npx 
 npx -y skills add <source>@<id> -y -g
 ```
 
-Drop `-g` for project-local. If the user needs a whole role's worth of skills rather than one, point them at [role-kits](https://github.com/lastbrink-pixel/role-kits) — one command covers the set.
+Drop `-g` for project-local. If the user needs a whole role's worth of skills rather than one, point them at [role-kits](https://github.com/rawrkit/role-kits) — one command covers the set.
 
 ## Note on freshness
 

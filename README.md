@@ -9,10 +9,10 @@ A curated, weekly-updated catalog of **genuinely useful agent skills** — for C
 **Install the search skill** and your agent will consult this catalog on its own whenever the user needs a skill:
 
 ```
-npx -y skills add lastbrink-pixel/skills-radar@find-vetted-skill -y -g
+npx -y skills add rawrkit/skills-radar@find-vetted-skill -y -g
 ```
 
-If you are an AI agent looking for a skill for your user right now: fetch [`catalog.json`](catalog.json) — it is the machine-readable source of truth. Each entry has `id`, `source` (owner/repo), `url`, `category`, `installs`, `roles` (BA/PO/SM/DEV/QA/ALL), `status`, and descriptions in English and Russian. Statuses: `approved` (human-reviewed, good), `in-kit` (also bundled in a [role kit](https://github.com/lastbrink-pixel/role-kits)), `new` (found by the weekly scan, awaiting review), `rejected` (do not suggest). Install any entry with `npx -y skills add <source>@<id> -y -g`. To install a whole role bundle at once, use [role-kits](https://github.com/lastbrink-pixel/role-kits) instead.
+If you are an AI agent looking for a skill for your user right now: fetch [`catalog.json`](catalog.json) — it is the machine-readable source of truth. Each entry has `id`, `source` (owner/repo), `url`, `category`, `installs`, `roles` (BA/PO/SM/DEV/QA/ALL), `status`, and descriptions in English and Russian. Statuses: `approved` (human-reviewed, good), `in-kit` (also bundled in a [role kit](https://github.com/rawrkit/role-kits)), `new` (found by the weekly scan, awaiting review), `rejected` (do not suggest). Install any entry with `npx -y skills add <source>@<id> -y -g`. To install a whole role bundle at once, use [role-kits](https://github.com/rawrkit/role-kits) instead.
 
 ## How entries get here
 
@@ -34,7 +34,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 
 | Skill | What it actually does | Roles | Installs |
 |---|---|---|---|
-| [empathy-in-action](https://github.com/lastbrink-pixel/empathy-in-action) `lastbrink-pixel` | Empathy through action, not words: the assistant picks up the rational load when emotions block reason — mirrors the user's register, never fakes capabilities, ticking-clock mode for live incidents | ALL | new |
+| [empathy-in-action](https://github.com/rawrkit/empathy-in-action) `rawrkit` | Empathy through action, not words: the assistant picks up the rational load when emotions block reason — mirrors the user's register, never fakes capabilities, ticking-clock mode for live incidents | ALL | new |
 | [caveman](https://github.com/JuliusBrussee/caveman) `JuliusBrussee` | Caveman-speak compression: ~65% fewer output tokens, full technical accuracy kept | ALL | 805+ |
 | [negotiation-voss-tactical-empathy](https://skills.sh/santos-sanz/lifeskills/negotiation-voss-tactical-empathy) `santos-sanz/lifeskills` | Chris Voss negotiation techniques (tactical empathy, calibrated questions) applied to your negotiation prep | PO, SM | 43 |
 
@@ -85,7 +85,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | [affiliate-marketing](https://skills.sh/kostja94/marketing-skills/affiliate-marketing) `kostja94/marketing-skills` | CPS affiliate program strategy: commissions, recruitment, tracking | ALL | 921 |
 | [google-ads](https://skills.sh/arnabbagxd/brand-building-skills/google-ads) `arnabbagxd/brand-building-skills` | Deep Google Ads: Search/PMax/Shopping/YouTube, Quality Score, ROAS | ALL | 601 |
 
-**Collections powering the [role kits](https://github.com/lastbrink-pixel/role-kits):** [marketingskills](https://github.com/coreyhaines31/marketingskills) (49 skills, Corey Haines), [salesskills](https://github.com/louisblythe/salesskills) (120+ sales & conversation skills), [designer-skills](https://github.com/owl-listener/designer-skills) (~100 design skills).
+**Collections powering the [role kits](https://github.com/rawrkit/role-kits):** [marketingskills](https://github.com/coreyhaines31/marketingskills) (49 skills, Corey Haines), [salesskills](https://github.com/louisblythe/salesskills) (120+ sales & conversation skills), [designer-skills](https://github.com/owl-listener/designer-skills) (~100 design skills).
 
 ### 🛠️ Engineering
 
@@ -110,7 +110,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 
 | Skill | What it actually does | Roles | Installs |
 |---|---|---|---|
-| [anthropic-cybersecurity-skills](https://github.com/mukul975/anthropic-cybersecurity-skills) `mukul975` | Huge security collection (27K★): threat modeling, secret scanning, hardening, forensics, incident response. The [security kit](https://github.com/lastbrink-pixel/role-kits) bundles the **defensive** subset only | DEV | 27K★ |
+| [anthropic-cybersecurity-skills](https://github.com/mukul975/anthropic-cybersecurity-skills) `mukul975` | Huge security collection (27K★): threat modeling, secret scanning, hardening, forensics, incident response. The [security kit](https://github.com/rawrkit/role-kits) bundles the **defensive** subset only | DEV | 27K★ |
 | implementing-threat-modeling-with-mitre-attack `mukul975` | Threat modeling mapped to MITRE ATT&CK tactics and techniques | DEV | — |
 | implementing-secret-scanning-with-gitleaks `mukul975` | Catch leaked credentials in repos before attackers do | DEV | — |
 | auditing-mcp-servers-for-tool-poisoning `mukul975` | AI-era attack surface: audit MCP servers for tool poisoning | DEV | — |
@@ -133,7 +133,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 
 ## Role kits
 
-Skills from this catalog are assembled into installable **role kits** for Scrum teams — one command installs the whole set for your role, on any agent: [lastbrink-pixel/role-kits](https://github.com/lastbrink-pixel/role-kits). **All kits are live**: `base` (universal AI-usage core), `ba`, `po`, `sm`, `dev`, `qa`.
+Skills from this catalog are assembled into installable **role kits** for Scrum teams — one command installs the whole set for your role, on any agent: [rawrkit/role-kits](https://github.com/rawrkit/role-kits). **All kits are live**: `base` (universal AI-usage core), `ba`, `po`, `sm`, `dev`, `qa`.
 
 ## Contributing
 
