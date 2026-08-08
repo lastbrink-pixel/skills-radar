@@ -65,6 +65,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | [prioritization-advisor](https://skills.sh/deanpeters/product-manager-skills/prioritization-advisor) `deanpeters/product-manager-skills` | Picks the right prioritization framework (RICE/ICE/value-effort) for your stage | PO | 2.1K |
 | [user-story-mapping](https://skills.sh/deanpeters/product-manager-skills/user-story-mapping) `deanpeters/product-manager-skills` | Story mapping: from user journey to release slices | PO, BA | 2K |
 | [iterate-retrospective](https://skills.sh/product-on-purpose/pm-skills/iterate-retrospective) `product-on-purpose/pm-skills` | Facilitates and documents retros: went well / improve / action items | SM | 493 |
+| 🆕 [scrum-master](https://skills.sh/alirezarezvani/claude-skills/scrum-master) `alirezarezvani/claude-skills` | Data-driven Scrum coaching: Python scripts for Monte Carlo velocity forecasting, sprint health scoring, retro theme tracking from Jira-style exports | SM | 775 |
 
 ### 🧪 QA & testing
 
@@ -72,6 +73,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 |---|---|---|---|
 | [qa-test-planner](https://skills.sh/softaworks/agent-toolkit/qa-test-planner) `softaworks/agent-toolkit` | Test plans, manual cases, regression suites, bug reports | QA | 4.1K |
 | [accessibility-test-plan](https://skills.sh/owl-listener/designer-skills/accessibility-test-plan) `owl-listener/designer-skills` | Accessibility test plan for UI features | QA | 989 |
+| 🆕 [webapp-testing](https://skills.sh/anthropics/skills/webapp-testing) `anthropics/skills` | Official Anthropic skill: Playwright-driven testing of local web apps — screenshots, DOM inspection, browser console logs | QA, DEV | 129.2K |
 
 ### 📣 Marketing & growth
 
@@ -96,6 +98,10 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | [react-best-practices](https://skills.sh/vercel-labs/agent-skills/react-best-practices) `vercel-labs/agent-skills` | React/Next.js performance guidelines straight from Vercel engineering | DEV | 185K |
 | [document skills](https://github.com/anthropics/skills) `anthropics/skills` | Official Anthropic skills for producing real .docx / .xlsx / .pptx / .pdf artifacts | ALL | 100K+ |
 | [skill-creator](https://github.com/anthropics/skills) `anthropics/skills` | Meta-skill: builds new skills with test runs, benchmarks, and an iteration loop — how the skills in this catalog get made | ALL | 100K+ |
+| 🆕 [planning-with-files](https://skills.sh/othmanadi/planning-with-files/planning-with-files) `othmanadi/planning-with-files` | Manus-style persistent planning: task_plan.md/findings.md/progress.md on disk so multi-step work survives /clear and context loss | DEV | 39.8K |
+| 🆕 [code-review-excellence](https://skills.sh/wshobson/agents/code-review-excellence) `wshobson/agents` | Code review as knowledge-sharing, not gatekeeping: constructive-feedback patterns, review standards, mentoring through PRs | DEV | 26.3K |
+| 🆕 [documentation-writer](https://skills.sh/github/awesome-copilot/documentation-writer) `github/awesome-copilot` | Technical documentation structured with the Diátaxis framework — tutorials, how-to, reference, explanation | DEV | 24.4K |
+| 🆕 [context-engineering](https://skills.sh/addyosmani/agent-skills/context-engineering) `addyosmani/agent-skills` | Curates what an agent sees and when: rules files, context handoffs, diagnosing output degradation from context overload | DEV, ALL | 19.1K |
 
 ### 🖥️ Infrastructure
 
@@ -130,6 +136,7 @@ A weekly job scans [skills.sh](https://skills.sh), GitHub, and community lists f
 | Skill | What it actually does | Roles | Installs |
 |---|---|---|---|
 | [agentmemory](https://github.com/rohitg00/agentmemory) `rohitg00` | 15 persistent-memory skills (remember / recall / handoff / commit-context) so your agent survives session restarts | ALL | — |
+| 🆕 [memory-merger](https://skills.sh/github/awesome-copilot/memory-merger) `github/awesome-copilot` | Consolidates mature lessons from a scratch memory file into the permanent instruction file, scoped global/user/workspace | ALL | 12.7K |
 
 ## Role kits
 
